@@ -1,6 +1,9 @@
-void main()
+caluclate()
 {
-  var name = "Mark Zakerberg";//dynamic type
-  int age = 25; //staticolly type
-  print ('I am $name and $age years old');
+  //สูตรคำนวณหาดัชนีมวลกาย
+  //ดัชนีมวลกาย(BMI) = (น้ำหนักตัว(กิโลกรัม)/(ส่วนสูง(เมตร)*2))
+  double weight = 45;
+  double height = 165;
+  double bmi = (weight/(height*height))*10000;
+  return bmi;
 }
